@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ezra&#39;s Wiki</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-02-04T14:27:14.163Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Ezra Penn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>物理变化和化学变化</title>
+    <link href="http://example.com/2024/02/03/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E5%8F%98%E5%8C%96%E5%92%8C%E5%8C%96%E5%AD%A6%E5%8F%98%E5%8C%96/"/>
+    <id>http://example.com/2024/02/03/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E5%8F%98%E5%8C%96%E5%92%8C%E5%8C%96%E5%AD%A6%E5%8F%98%E5%8C%96/</id>
+    <published>2024-02-03T11:14:03.000Z</published>
+    <updated>2024-02-04T14:27:14.163Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="物理变化">物理变化</h2><p><strong>有新物质生成</strong>的变化/<strong>原子核</strong>内部发生的变化。</p><p>例:扩散、聚集、膨胀、压缩、挥发、摩擦生热、物态变化、核反应等。</p><h3 id="核反应">核反应</h3><p>核反应是指<em>原子核与原子核</em>，或者<em>原子核与各种粒子</em>(如质子、中子、光子或高能电子)之间的相互作用引起的各种变化。</p><h4 id="核反应四种类型">核反应四种类型</h4><figure><imgsrc="https://raw.githubusercontent.com/evanadams413/PicBed/master/202401161341002.png"alt="核反应四种类型" /><figcaption aria-hidden="true">核反应四种类型</figcaption></figure><h4 id="核反应书写原则">核反应书写原则</h4><ol type="1"><li>遵循质量数和电荷数守恒;</li><li>用“→”表示反应的方向，不能用“=”;</li><li>必须有实验依据，不能瞎编乱造。<strong>※化学反应中原子数守恒，而核反应中原子数不一定守恒</strong></li></ol><h3 id="常考物理性质">常考物理性质</h3><p>颜色、味道、熔点、沸点、压强、密度、温度、溶解性(度)、比能量、电/热导率、挥发性、硬度、耐磨性、焰色......</p><h2 id="化学变化">化学变化</h2><p>旧键<strong>断裂</strong>，新键<strong>生成</strong>，有<strong>新物质</strong>产生。</p><p>例:燃烧、生锈、食物腐败、酸碱中和......</p><p><strong>常考化学性质</strong></p><p>氧化性/还原性、金属性/非金属性、酸性/碱性、可燃性、稳定性......</p><table><colgroup><col style="width: 7%" /><col style="width: 92%" /></colgroup><tbody><tr class="odd"><td>四馏</td><td>蒸馏、分馏、精馏、干馏</td></tr><tr class="even"><td>五色</td><td>焰色、活性炭脱色、显色、变色、褪色</td></tr><tr class="odd"><td>五解</td><td>潮解、电解、分解、水解、裂解</td></tr><tr class="even"><td>二十化</td><td>熔化、汽化、液化、酸化、氧化、歧化、钝化、催化、水化、风化、裂化、皂化、炭化、酯化、硝化、卤化、氢化、硬化、海水淡化、氨化</td></tr></tbody></table><h3 id="四馏">四馏</h3><ul><li>物理变化: 蒸馏 ≈ 分流 ≈ 精馏</li><li>化学变化: 干馏</li></ul><h3 id="五色">五色</h3><ul><li>物理变化: 焰色、活性炭脱色</li><li>化学变化: 显色、变色、褪色</li></ul><h3 id="五解">五解</h3><ul><li>物理变化: 潮解（吸水）</li><li>化学变化: 电解、分解、水解、裂解</li></ul><h3 id="二十化">二十化</h3><ul><li>物理变化: 熔化、汽化、液化</li><li>化学变化:酸化、氧化、歧化、钝化、催化、水化、风化、裂化、皂化、炭化、酯化、硝化、卤化、氢化、氨化</li></ul><p>海水淡化: 都有</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;物理变化&quot;&gt;物理变化&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;有新物质生成&lt;/strong&gt;的变化/&lt;strong&gt;原子核&lt;/strong&gt;内部发生的变化。&lt;/p&gt;
+&lt;p&gt;例:扩散、聚集、膨胀、压缩、挥发、摩擦生热、物态变化、核反应等。&lt;/p&gt;
+&lt;h3 id=&quot;核反应&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="生活学习" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="化学" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/"/>
+    
+    <category term="无机化学" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>物质的组成及分类</title>
+    <link href="http://example.com/2024/02/02/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E8%B4%A8%E7%9A%84%E7%BB%84%E6%88%90%E5%8F%8A%E5%88%86%E7%B1%BB/"/>
+    <id>http://example.com/2024/02/02/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E8%B4%A8%E7%9A%84%E7%BB%84%E6%88%90%E5%8F%8A%E5%88%86%E7%B1%BB/</id>
+    <published>2024-02-02T04:59:08.586Z</published>
+    <updated>2024-02-04T14:27:15.992Z</updated>
+    
+    <content type="html"><![CDATA[<p>化学是在<strong>分子</strong>、<strong>原子</strong>水平上研究物质的<strong>组成</strong>、<strong>结构</strong>、<strong>性质</strong>、转化及其应用的基础自然科学。</p><h2 id="物质的组成">物质的组成</h2><h3 id="宏观">宏观</h3><p>物质由<strong>元素</strong>组成。元素在自然界有两种存在形式：</p><ol type="1"><li>以单质形式存在的称为元素的<strong>游离</strong>态，同种元素不同组成的单质之间互为<strong>同素异形体</strong>(金刚石/石墨，O<sub>2</sub>/O<sub>3</sub>，红磷/白磷);</li><li>以化合物形式存在的称为元素的<strong>化合</strong>态。第三周期主族元素中，自然界中无游离态的有 <span class="math inline">\(Na,Mg, Al, Si, P, Cl\)</span>。</li></ol><blockquote><p><span class="math inline">\(Na, Mg\)</span> 较活泼，<spanclass="math inline">\(Al, Si, P\)</span> 亲氧，<spanclass="math inline">\(Cl\)</span> 以例子形式存在。</p></blockquote><p><strong>不同体系中元素含量排序：</strong></p><ol type="1"><li>空气中，含量靠前的元素种类排序：<spanclass="math inline">\(N&gt;O&gt;Ar\)</span>;</li><li>地壳中，含量靠前的元素种类排序：<spanclass="math inline">\(O&gt;Si&gt;Al&gt;Fe&gt;Ca\)</span>;</li><li>海水中，含量靠前的元素种类排序：<spanclass="math inline">\(O&gt;H&gt;Cl&gt;Na&gt;Mg&gt;S&gt;Ca\)</span>。</li></ol><h3 id="微观">微观</h3><p>构成原子的三种基本粒子为<strong>质子</strong>、<strong>中子</strong>、<strong>电子</strong>。构成物质的三种基本微粒为<strong>分子</strong>、<strong>原子</strong>、<strong>离子</strong>。化学反应中多个原子以一个整体参与反应，这样的原子基团称为<strong>原子团</strong>。</p><ul><li>带电的称为(<strong>根</strong>)，不带电的称为<strong>基团</strong>。</li></ul><h2 id="物质的分类">物质的分类</h2><h3 id="纯净物和混合物">纯净物和混合物</h3><table><thead><tr class="header"><th></th><th>纯净物</th><th>混合物</th></tr></thead><tbody><tr class="odd"><td>是否有固定组成</td><td>是</td><td>否</td></tr><tr class="even"><td>是否有固定沸点</td><td>晶体有固定沸点; 非晶体没有固定沸点</td><td>不一定</td></tr></tbody></table><blockquote><p>例：下列物质为纯净物的画✔。胆矾晶体✔、冰水混合物✔、纤维素、聚乙烯、有机玻璃、菱铁矿、储氢合金、无水乙醇、蒸馏水✔、洁净的空气、氨水、天然气、盐酸(氯化氢气体✔、盐酸溶液)</p></blockquote><h3 id="酸碱盐氧化物">酸、碱、盐、氧化物</h3><h4 id="酸的分类">酸的分类</h4><p>按照可以电离的氢原子数可分为<strong>一元酸、二元酸、多元酸</strong>。按照电离的完全程度可分为<strong>强酸、弱酸</strong>。按照是否有氧化性可分为<strong>氧化性酸、非氧化性酸</strong>。按照是否含氧元素可分为<strong>含氧酸、无氧酸</strong>。按照是否有挥发性可分为<strong>挥发性酸、不挥发性酸</strong>。</p><p><strong>高中常见酸酸性排序：</strong></p><p><span class="math inline">\(HClO_4 &gt; HI &gt; HBr ≈ H_2SO_4 &gt;HCl &gt; HNO_3 &gt; H_2C_2O_4(草酸) &gt; H_2SO_3 &gt; H_3PO_4 &gt; HF&gt; HCOOH &gt; CH3COOH &gt; H_2CO_3 &gt; H_2S &gt; HClO &gt; H_3BO_3&gt; H_2SiO_3\)</span></p><h4 id="碱的分类">碱的分类</h4><p>按照电离程度可分为<strong>强酸</strong>、<strong>弱酸</strong>(与是否<strong>可溶</strong>无关)。</p><h4 id="盐的分类">盐的分类</h4><p>按照酸根是否能够继续电离出 <spanclass="math inline">\(H^+\)</span>，分为<strong>酸式盐</strong>、<strong>正盐</strong>。按照阴阳离子的种类分为：<strong>碱式盐</strong> <spanclass="math inline">\(Cu_2(OH)_2CO_3\)</span>、<strong>复盐</strong><span class="math inline">\(KAl(SO_4)_2\)</span>、<strong>络盐</strong><span class="math inline">\([Cu(NH_3)_4]SO_4、K_3[Fe(CN)_6]\)</span></p><h4 id="氧化物的分类">氧化物的分类</h4><ul><li>酸性氧化物：与碱反应只生成盐和水的氧化物。</li><li>碱性氧化物：与酸反应只生成盐和水的氧化物。</li><li>不成盐氧化物</li></ul><p><strong>【补：酸酐】酸失水的产物</strong> 硫酸(<spanclass="math inline">\(H_2SO_4\)</span>)酐 <strong><spanclass="math inline">\(SO_3\)</span></strong> 硝酸(HNO3)酐 <strong><spanclass="math inline">\(N_2O_5\)</span></strong> 硅酸(H2SiO3)酐<strong><span class="math inline">\(SiO_2\)</span></strong>乙酸(CH3COOH)酐 <strong><spanclass="math inline">\(CH_3CO-OOCH_3C\)</span></strong></p><p><strong>【总结】九个“不一定”</strong></p><ol type="1"><li>名称中有“酸”的物质不一定是酸。</li><li>名称中有“碱”的物质不一定是碱。</li><li>酸的元数不一定等于酸分子中的 H 原子数。</li><li>无氧酸不一定是非金属元素的氢化物。</li><li>非金属氧化物不一定是酸性氧化物。</li><li>酸性氧化物不一定是非金属氧化物。</li><li>金属氧化物不一定是碱性氧化物。</li><li>酸酐不一定是酸性氧化物。</li><li>酸性氧化物不一定能与水反应生成相应的酸。</li></ol><h3 id="电解质和非电解质">电解质和非电解质</h3><ol type="1"><li>电解质：在水溶液<strong>或</strong>熔融状态下能电离的化合物。</li><li>非电解质：在水溶液<strong>和</strong>熔融状态下都不能电离的化合物。</li></ol><p>能否导电看<strong>物质结构</strong>;是否是电解质看<strong>物质本身</strong>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;化学是在&lt;strong&gt;分子&lt;/strong&gt;、&lt;strong&gt;原子&lt;/strong&gt;水平上研究物质的&lt;strong&gt;组成&lt;/strong&gt;、&lt;strong&gt;结构&lt;/strong&gt;、&lt;strong&gt;性质&lt;/strong&gt;、
+转化及其应用的基础自然科学。&lt;/p&gt;
+&lt;h2 id</summary>
+      
+    
+    
+    
+    <category term="生活学习" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="化学" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/"/>
+    
+    <category term="无机化学" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome Ezra&#39;s Wiki Site</title>
+    <link href="http://example.com/2024/02/01/index/"/>
+    <id>http://example.com/2024/02/01/index/</id>
+    <published>2024-02-01T05:10:34.000Z</published>
+    <updated>2024-02-01T05:17:37.030Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是 Ezra 的个人 Wiki 站点，主要记录一些自己总结的只言片语的零散知识点。</p><p>我一直觉得 <strong>知识不能碎片化，要结构化</strong>，于是希望寻找一种优雅的方式来管理我的知识。</p><p>先后了解或尝试过 OneNote、Evernote、Blog、Wiki 等方式，总结了一套觉得比较合理的知识获取吸收管理流程：</p><ol><li>通过网页、RSS、微信等网络渠道作为知识获取来源。</li><li>通过笔记系统（手写笔记、OneNote、Evernote）初步筛选有价值有针对性的信息，<strong>收藏</strong>信息，<strong>分类整理</strong>，做读后<strong>要点</strong>笔记记录。</li><li>自己平时突然想到或总结的一两句话，或很零碎的点子、灵感，初步消化的内容，则用 <strong>Wiki</strong> 记录。</li><li>最后当 Wiki 在某版块有一定量后，将这方面笔记和 Wiki 中的内容重读，整理和提炼，二次消化精炼再加上自己的感悟和理解，写成文章发表在 <strong>博客</strong> 上。</li></ol><p>在使用中，<strong>笔记系统</strong> 主大块信息的<strong>分类和整理</strong>，<strong>Wiki</strong> 主零碎知识的<strong>积累</strong>，而 <strong>博客</strong> 只在于 <strong>精</strong>。</p><p>Wiki 中某一版块刚建时，可能只有很少内容或者就一句话，但是通过这种使用流程，日积月累，这方面的事物接触得多了，零散的知识也就多了，那么 Wiki 中这个版块记录的内容也就会变多了，也就是<strong>通过积累，把原本大量碎片化的知识结构化整理起来了</strong>。</p><p>博客的目的是 <strong>分享和展示</strong>，分享自己的知识，展示自己的水平，需要放拿得出手的东西，因此不适合放碎片化的只言片语，更适合放 <strong>一个系列</strong> 的总结或者教程等，是一个十分成体系的知识平台。</p><p>当我尝试部署一个自己的 Wiki 系统时，又开始纠结于选择哪个 Wiki 系统。参考网上博客，实际部署和对比比较了几个时下流行的 Wiki 系统：MediaWiki, DokuWiki, MDwiki, TiddlyWiki, wiz, vimwiki, Simiki, Wikitten 等等。都不如人意，有些是部署麻烦复杂，有些是界面太丑，有些不能分级，有些分级不能展开，有些不能搜索，还有的甚至不是用的 Markdown 。。。</p><p>根据这些不算满意的使用体验，我总结整理了一下自己对于 <strong>个人 Wiki</strong> 的一些需求。</p><ul><li>界面简洁美观，排版字体友好</li><li>支持多级分类</li><li>方便修改和更新内容</li><li>部署简单</li><li>分类目录可展开和收缩</li><li>展开分类时可查看该分类下所有文章 &#x2F; 词条的标题</li><li>每篇文章 &#x2F; 词条能添加多个分类 &#x2F; 标签</li><li>Wiki 可支持引用内部链接</li><li>使用 Markdown 书写文章 &#x2F; 词条</li><li>支持全文搜索（可搜索内容和标题）</li></ul><p>在之前的使用中，<a href="http://wikitten.vizuina.com/">Wikiteen</a> 是最接近我需求的，但是仍然有一些条件不满足，比如部署和搜索。但是我个人比较喜欢 Wikitten 的样式。</p><p>于是最终我选择了仿照 Wikitten 的样式自己写这个基于 Hexo 的 Wiki 主题 <a href="https://github.com/zthxxx/hexo-theme-Wikitten">hexo-theme-Wikitten</a>，作为自己用的一套 Wiki 系统，基本实现了上述的需求。现在暂时自己用着，当然这个初步功能还很简单，后续也有一堆 Bug 和 TODO List 需要维护，欢迎有兴趣的提提 PR。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是 Ezra 的个人 Wiki 站点，主要记录一些自己总结的只言片语的零散知识点。&lt;/p&gt;
+&lt;p&gt;我一直觉得 &lt;strong&gt;知识不能碎片化，要结构化&lt;/strong&gt;，于是希望寻找一种优雅的方式来管理我的知识。&lt;/p&gt;
+&lt;p&gt;先后了解或尝试过 OneNote、Evern</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>C语言学习笔记</title>
+    <link href="http://example.com/2024/02/01/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2024/02/01/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2024-02-01T04:29:39.000Z</published>
+    <updated>2024-02-04T15:39:16.145Z</updated>
+    
+    <content type="html"><![CDATA[<p>计算机语言基础见<a href="./计算机语言基础知识.md">计算机语言基础知识</a></p><div class="admonition note"><p class="admonition-title">补充 C语言编译</p><p>以 gcc 为例。编写名为 <code>hello.c</code> 的源文件后，编译: <code>$ gcc hello.c</code> 会生成一个二进制文件，默认为 <em>a.out</em>，这个过程就是编译。上述 gcc 命令其实依次执行了四步操作：1.预处理(Preprocessing)、2.编译(Compilation)3.汇编(Assemble)、4.链接(Linking)。<img src="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042256344.png" alt="编译四步操作" /></p></div><h2 id="初识C语言"><a href="#初识C语言" class="headerlink" title="初识C语言"></a>初识C语言</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello, world!&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>编译运行后，命令行会打印输出 <code>Hello, world!</code>。</p><h3 id="预处理指令和头文件"><a href="#预处理指令和头文件" class="headerlink" title="预处理指令和头文件"></a>预处理指令和头文件</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br></pre></td></tr></table></figure><p>这段指令相当于把 <em>stdio.h</em> 文件中的所有内容都输入该行所在的位置，类似于“拷贝-粘贴”。</p><p><code>#include</code> 是一条 C 预处理器指令。预处理指令通常在C编译器编译前执行，以确保程序需要。所有的预处理指令都是以井号（#）开头，只有空格字符可以出现在预处理指令之前。预处理指令不是 C 语句，所以它们不会以分号（;）结尾。C 支持很多预处理指令，比如 <em>#include、#define、#if、#else、#line</em> 等。<code>#include</code> 有两种用法：尖括号引用和双引号引用，区别在于头文件的搜索路径不同。使用尖括号(&lt;&gt;)，编译器会到系统路径下查找头文件；而使用双引号(“”)，编译器首先在当前目录下查找头文件，如果没有找到，再到系统路径下查找。也就是说，使用双引号比使用尖括号多了一个查找路径，它的功能更为强大。</p><p><code>stdio.h</code> 是一个头文件。通常情况下，头文件以 <strong>.h</strong> 为文件后缀，包含了 C 函数声明和宏定义，被多个源文件中引用共享。头文件有两种类型：程序员编写的头文件和编译器自带的头文件。在程序中要使用头文件，需要使用 C 预处理指令 <em>#include</em> 来引用它。<em>stdio.h</em> 头文件是编译器自带的头文件。</p><h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p>函数是一个一次执行一个或多个语句的代码块，普通函数仅在调用时执行。函数的基本形式:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">returnType <span class="title function_">functionName</span><span class="params">(args)</span></span><br><span class="line">&#123;</span><br><span class="line">    satements...</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>returnType</code> 为返回值的数据类型，如果无返回值则为 <em>void</em>；<code>functionName</code> 为函数名称，除主函数外默认不执行，除非在主函数中调用；<code>args</code> 为传入参数，如果没有参数则为空或 <em>void</em>，如果有一个参数则为 <em>argument</em>，如果有多个参数需用 <em>,</em> 分隔；<code>satements..</code> 表示该函数需要执行的语句，语句需要用 <em>{}</em> 包裹起来，看作一个代码块；<code>return</code> 为返回语句，其返回值类型与 <code>returnType</code> 一致，函数会以返回语句作为结束标志。</p><div class="admonition info"><p class="admonition-title">注意</p><p>如果遗漏 main() 函数中的 return 语句，程序在运行至最外面的右花括号（｝）时会返回0。因此，可以省略 main() 函数末尾的 return 语句。但是，不要在其他有返回值的函数中漏掉它。</p></div><p>在C中有一个特殊的函数——主函数 main()。主函数是一个程序的入口，它由用户定义但是却必需存在，在一个项目中有且只能有一个 main() 函数，其他函数需要在 main() 函数中调用才能执行。当执行C程序时，操作系统会开始逐条执行 main() 函数中的语句直到返回语句结束。</p><p><code>printf()</code> 也是一个函数，存在于 <em>stdio.h</em> 文件中。它的作用是打印输出字符串参数。</p><h3 id="语句和代码块"><a href="#语句和代码块" class="headerlink" title="语句和代码块"></a>语句和代码块</h3><p>在前文中多次提到语句。在函数内部是按顺序排列的一条条的指令和相关的数据，我们可以把这些指令和数据理解为我们向计算机发出的命令。在程序设计语言中，我们把这样的命令称为语句。为了区分一条条的语句，不至于让计算机混淆，我们在每一条语句末尾用 <code>;</code> 结束，并且最好每个语句独占一行。简单的语句就是要求计算机做出的一些简单动作，例如获取用户输入或打印输出等。当我们想要计算机执行复杂的动作时，需要多个语句协同运行，可以把多条语句组合在一起形成 <strong>块语句</strong>。块语句要用花括号 <em>{</em> 和 <em>}</em> 包围起来。</p><p>C语言六种基本语句是：1、表达式语句；2、标签语句；3、循环语句；4、复合语句；5、跳转语句；6、选择语句。C程序中的语句一般都是按照其出现的先后顺序依次执行的，我们把程序中语句的执行顺序称为程序的流程。程序的流程一般有三种结构，分别是顺序结构、选择结构（分支结构）、循环结构。这是C语言的基础。</p><p><img src="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042335826.png" alt="图 1.3.1：三种程序结构的流程示意图"></p><div class="admonition note"><p class="admonition-title">对三种程序结构的说明</p><ul><li>顺序结构是语句按照其在程序中出现的先后顺序依次执行。</li><li>选择结构有时也被称为“分支结构”或“条件分支”，是根据若干个判断条件的成立与否，在程序执行过程中产生不同的执行分支。</li><li>循环结构是程序在运行过程中如果某个判断条件成立，把一些语句反复执行若干次。</li></ul></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;计算机语言基础见&lt;a href=&quot;./计算机语言基础知识.md&quot;&gt;计算机语言基础知识&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;admonition note&quot;&gt;&lt;p class=&quot;admonition-title&quot;&gt;补充 C语言编译
+&lt;/p&gt;&lt;p&gt;以 gcc 为例。编写名为</summary>
+      
+    
+    
+    
+    <category term="程序语言" scheme="http://example.com/categories/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机语言基础知识</title>
+    <link href="http://example.com/2024/01/04/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://example.com/2024/01/04/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</id>
+    <published>2024-01-04T04:29:39.000Z</published>
+    <updated>2024-02-04T14:48:22.974Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="低级语言"><a href="#低级语言" class="headerlink" title="低级语言"></a>低级语言</h2><p>在计算机世界中，把用二进制代码表示的计算机能直接识别和执行的指令和数据的集合（程序）称为“机器语言”（面向机器的语言）。</p><blockquote><p>机器语言是唯一一种 CPU 能直接理解并执行的编程语言，用其他语言编写的程序计算机是不能直接运行的，必须先转换成机器语言。</p></blockquote><p>就如同在人类世界中把用 a～z 26 个英文字母组成的语言称为英语一样，在人类世界中，除了英语外，还有汉语、日语、法语等各种不同的语言。在计算机世界中，除了用二进制代码表示的机器语言外，还有汇编语言、BASIC 语言、Pascal 语言、C语言、Java 语言、Visual Basic 语言、PHP 语言、HTML 语言等，以上这些都统称为计算机的程序设计语言。</p><p>机器语言是最底层的计算机语言，用机器语言编写的程序都是由 8bit 二进制数构成的。每个 8bit 的二进制数都是有特定含义的指令或数据。可对于人而言，看到的都是 0 和 1 的组合，很难判断各个组合都表示什么。</p><p>于是就有人发明了另一种编程方法，根据表示指令功能的英语单词给每一种指令起一个相似的昵称，并用这个昵称来代替表示指令的 0 和 1 的二进制数组合，而数据则用我们更容易接受的十六进制数或十进制数来表示（代码清单2）。这种类似英语单词的昵称叫作“助记符”，我们把这种使用“助记符”的编程语言称为<strong>“汇编语言”</strong>。</p><p>用汇编语言编写的程序计算机是不能直接运行的，必须先转换成机器语言。<em>机器语言是唯一一种CPU能直接理解并执行的编程语言。</em></p><p>汇编语言的助记符以及数据和机器语言的二进制代码都是一一对应的，都是针对计算机硬件的，也就是说都是面向机器的语言。不同的计算机硬件（CPU）所用的助记符和二进制代码是不一样的，所以这样的程序其通用性不好，如果把它移植到其他的计算机上就无法正常运行了。我们通常把机器语言和汇编语言称为低级语言。</p><h2 id="高级语言"><a href="#高级语言" class="headerlink" title="高级语言"></a>高级语言</h2><p>低级语言分机器语言（二进制语言）和汇编语言（符号语言），这两种语言都是面向机器的语言，和具体机器的指令系统密切相关。</p><p>采用了助记符的汇编语言虽然比机器语言直观且容易理解和记忆，但是由于汇编语言依赖于硬件体系，且助记符量大难记，学习和理解这样的程序依然非常困难，于是人们又发明了更加易用的所谓高级语言。</p><p><strong>高级语言</strong>是以人类日常语言为基础的一种编程语言，使用一般人易于接受的文字和数学公式来表示（通常是英语），其语法和结构更类似于普通英文。由于高级语言远离对硬件的直接操作，每个人经过学习后都可以编程，且程序具有较高的可读性，以方便对电脑认知比较浅的人也可以大概明白其内容。</p><p>我们通常将使用高级语言编写的程序通常称为<em>源代码（Source code）</em>。</p><p>高级语言并不是特指的某一种具体的语言，而是包括很多编程语言，如流行的 C、C++、C#、Pascal、BASIC、Visual Basic、Java、Python、Lisp、PHP 等等，这些语言的语法、命令格式都各不相同。</p><p>用高级语言编写的程序源代码不能直接被CPU识别和执行，必须转换成对应的目标代码（机器语言）才能被识别和执行。对CPU来说母语是机器语言，而转换成机器语言的程序就是本地代码。这种转换过程被称为<strong>编译（Compile）</strong>，如图1所示。</p><p><img src="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042245424.png" alt="图 1：C语言程序经过编译以后才能被计算机执行"></p><p>不同高级语言的语法及命令格式都不相同，所以将其转换为目标代码（机器语言）的方式也不一样，每种高级语言都有对应的编译器。比如，常用的C语言编译器（C compiler）有 Turb C、gcc、C-Free、Borland C++、Microsoft Visual C++ 等。</p><p>C语言是现今最流行的一种编程语言。要编写 C语言程序通常要在电脑上下载并安装一种 C语言编译器（比如 Turbo C 或 C-Free）。安装好 C 编译器以后就可以使用其提供的编辑器来编写、修改、编译、运行程序以及查看结果。通过编译源代码可以找出程序中的各种错误，如果你拼错了一条命令或者用错了某个符号，C 编译器就会在编译程序时通知你（见图 2）。程序中的错误称为 <em>bug</em>，修正错误称为<strong>调试程序（debugging）</strong>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;低级语言&quot;&gt;&lt;a href=&quot;#低级语言&quot; class=&quot;headerlink&quot; title=&quot;低级语言&quot;&gt;&lt;/a&gt;低级语言&lt;/h2&gt;&lt;p&gt;在计算机世界中，把用二进制代码表示的计算机能直接识别和执行的指令和数据的集合（程序）称为“机器语言”（面向机器的语言）。&lt;/</summary>
+      
+    
+    
+    
+    <category term="程序语言" scheme="http://example.com/categories/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/"/>
+    
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <meta charset="utf-8">
+    
+    <title>C语言学习笔记 | Ezra&#39;s Wiki</title>
+    
+    
+        <meta name="keywords" content="C语言学习笔记" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="计算机语言基础见计算机语言基础知识 补充 C语言编译 以 gcc 为例。编写名为 hello.c 的源文件后，编译: $ gcc hello.c 会生成一个二进制文件，默认为 a.out，这个过程就是编译。 上述 gcc 命令其实依次执行了四步操作：1.预处理(Preprocessing)、2.编译(Compilation) 3.汇编(Assemble)、4.链接(Linking)。    初识C">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言学习笔记">
+<meta property="og:url" content="http://example.com/2024/02/01/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Ezra&#39;s Wiki">
+<meta property="og:description" content="计算机语言基础见计算机语言基础知识 补充 C语言编译 以 gcc 为例。编写名为 hello.c 的源文件后，编译: $ gcc hello.c 会生成一个二进制文件，默认为 a.out，这个过程就是编译。 上述 gcc 命令其实依次执行了四步操作：1.预处理(Preprocessing)、2.编译(Compilation) 3.汇编(Assemble)、4.链接(Linking)。    初识C">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042256344.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042335826.png">
+<meta property="article:published_time" content="2024-02-01T04:29:39.000Z">
+<meta property="article:modified_time" content="2024-02-04T15:39:16.145Z">
+<meta property="article:author" content="Ezra Penn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042256344.png">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Ezra&#39;s Wiki" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/open-sans/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    
+<script src="/libs/jquery/plugins/cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Ezra&#39;s Wiki</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">首页</a>
+                
+                    <a class="main-nav-link" href="/archives">归档</a>
+                
+                    <a class="main-nav-link" href="/categories">分类</a>
+                
+                    <a class="main-nav-link" href="/tags">标签</a>
+                
+                    <a class="main-nav-link" href="/about">关于</a>
+                
+            </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">首页</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">归档</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">分类</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">标签</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">关于</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap" id='categories'>
+        <h3 class="widget-title">
+            <span>分类</span>
+            &nbsp;
+            <a id='allExpand' href="#">
+                <i class="fa fa-angle-double-down fa-2x"></i>
+            </a>
+        </h3>
+        
+        
+        
+         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            生活学习
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            化学
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            无机化学
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2024/02/02/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E8%B4%A8%E7%9A%84%E7%BB%84%E6%88%90%E5%8F%8A%E5%88%86%E7%B1%BB/">物质的组成及分类</a></li>  <li class="file"><a href="/2024/02/03/%E7%94%9F%E6%B4%BB%E5%AD%A6%E4%B9%A0/%E5%8C%96%E5%AD%A6/%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6/%E7%89%A9%E7%90%86%E5%8F%98%E5%8C%96%E5%92%8C%E5%8C%96%E5%AD%A6%E5%8F%98%E5%8C%96/">物理变化和化学变化</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            程序语言
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2024/01/04/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">计算机语言基础知识</a></li>  <li class="file active"><a href="/2024/02/01/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">C语言学习笔记</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2024/02/01/index/">Welcome Ezra's Wiki Site</a></li>  </ul> 
+    </div>
+    <script>
+        $(document).ready(function() {
+            var iconFolderOpenClass  = 'fa-folder-open';
+            var iconFolderCloseClass = 'fa-folder';
+            var iconAllExpandClass = 'fa-angle-double-down';
+            var iconAllPackClass = 'fa-angle-double-up';
+            // Handle directory-tree expansion:
+            // 左键单独展开目录
+            $(document).on('click', '#categories a[data-role="directory"]', function (event) {
+                event.preventDefault();
+
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var subtree = $(this).siblings('ul');
+                icon.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if (expanded) {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideUp({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderCloseClass);
+                } else {
+                    if (typeof subtree != 'undefined') {
+                        subtree.slideDown({ duration: 100 });
+                    }
+                    icon.addClass(iconFolderOpenClass);
+                }
+            });
+            // 右键展开下属所有目录
+            $('#categories a[data-role="directory"]').bind("contextmenu", function(event){
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconFolderOpenClass);
+                var listNode = $(this).siblings('ul');
+                var subtrees = $.merge(listNode.find('li ul'), listNode);
+                var icons = $.merge(listNode.find('.fa'), icon);
+                icons.removeClass(iconFolderOpenClass).removeClass(iconFolderCloseClass);
+                if(expanded) {
+                    subtrees.slideUp({ duration: 100 });
+                    icons.addClass(iconFolderCloseClass);
+                } else {
+                    subtrees.slideDown({ duration: 100 });
+                    icons.addClass(iconFolderOpenClass);
+                }
+            })
+            // 展开关闭所有目录按钮
+            $(document).on('click', '#allExpand', function (event) {
+                event.preventDefault();
+                
+                var icon = $(this).children('.fa');
+                var expanded = icon.hasClass(iconAllExpandClass);
+                icon.removeClass(iconAllExpandClass).removeClass(iconAllPackClass);
+                if(expanded) {
+                    $('#sidebar .fa.fa-folder').removeClass('fa-folder').addClass('fa-folder-open')
+                    $('#categories li ul').slideDown({ duration: 100 });
+                    icon.addClass(iconAllPackClass);
+                } else {
+                    $('#sidebar .fa.fa-folder-open').removeClass('fa-folder-open').addClass('fa-folder')
+                    $('#categories li ul').slideUp({ duration: 100 });
+                    icon.addClass(iconAllExpandClass);
+                }
+            });  
+        });
+    </script>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+            <section id="main"><article id="post-程序语言/C语言学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/">程序语言</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2024/02/01/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+            <time datetime="2024-02-01T04:29:39.000Z" itemprop="datePublished">2024-02-01</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/evanadams413/Wiki-site/raw/writing/source/_posts/程序语言/C语言学习笔记.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/evanadams413/Wiki-site/edit/writing/source/_posts/程序语言/C语言学习笔记.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/evanadams413/Wiki-site/commits/writing/source/_posts/程序语言/C语言学习笔记.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 class="article-title" itemprop="name">
+            C语言学习笔记
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">文章目录</strong>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E8%AF%86C%E8%AF%AD%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">初识C语言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%84%E5%A4%84%E7%90%86%E6%8C%87%E4%BB%A4%E5%92%8C%E5%A4%B4%E6%96%87%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">预处理指令和头文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-number">1.2.</span> <span class="toc-text">函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AD%E5%8F%A5%E5%92%8C%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">1.3.</span> <span class="toc-text">语句和代码块</span></a></li></ol></li></ol>
+                </div>
+            
+        
+        
+            <p>计算机语言基础见<a href="./计算机语言基础知识.md">计算机语言基础知识</a></p>
+<div class="admonition note"><p class="admonition-title">补充 C语言编译
+</p><p>以 gcc 为例。编写名为 <code>hello.c</code> 的源文件后，编译: <code>$ gcc hello.c</code> 会生成一个二进制文件，默认为 <em>a.out</em>，这个过程就是编译。
+上述 gcc 命令其实依次执行了四步操作：1.预处理(Preprocessing)、2.编译(Compilation)
+3.汇编(Assemble)、4.链接(Linking)。
+<img src="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042256344.png" alt="编译四步操作" /></p>
+</div>
+
+<h2 id="初识C语言"><a href="#初识C语言" class="headerlink" title="初识C语言"></a>初识C语言</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello, world!&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>编译运行后，命令行会打印输出 <code>Hello, world!</code>。</p>
+<h3 id="预处理指令和头文件"><a href="#预处理指令和头文件" class="headerlink" title="预处理指令和头文件"></a>预处理指令和头文件</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>这段指令相当于把 <em>stdio.h</em> 文件中的所有内容都输入该行所在的位置，类似于“拷贝-粘贴”。</p>
+<p><code>#include</code> 是一条 C 预处理器指令。预处理指令通常在C编译器编译前执行，以确保程序需要。所有的预处理指令都是以井号（#）开头，只有空格字符可以出现在预处理指令之前。预处理指令不是 C 语句，所以它们不会以分号（;）结尾。C 支持很多预处理指令，比如 <em>#include、#define、#if、#else、#line</em> 等。<code>#include</code> 有两种用法：尖括号引用和双引号引用，区别在于头文件的搜索路径不同。使用尖括号(&lt;&gt;)，编译器会到系统路径下查找头文件；而使用双引号(“”)，编译器首先在当前目录下查找头文件，如果没有找到，再到系统路径下查找。也就是说，使用双引号比使用尖括号多了一个查找路径，它的功能更为强大。</p>
+<p><code>stdio.h</code> 是一个头文件。通常情况下，头文件以 <strong>.h</strong> 为文件后缀，包含了 C 函数声明和宏定义，被多个源文件中引用共享。头文件有两种类型：程序员编写的头文件和编译器自带的头文件。在程序中要使用头文件，需要使用 C 预处理指令 <em>#include</em> 来引用它。<em>stdio.h</em> 头文件是编译器自带的头文件。</p>
+<h3 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h3><p>函数是一个一次执行一个或多个语句的代码块，普通函数仅在调用时执行。函数的基本形式:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">returnType <span class="title function_">functionName</span><span class="params">(args)</span></span><br><span class="line">&#123;</span><br><span class="line">    satements...</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>returnType</code> 为返回值的数据类型，如果无返回值则为 <em>void</em>；<code>functionName</code> 为函数名称，除主函数外默认不执行，除非在主函数中调用；<code>args</code> 为传入参数，如果没有参数则为空或 <em>void</em>，如果有一个参数则为 <em>argument</em>，如果有多个参数需用 <em>,</em> 分隔；<code>satements..</code> 表示该函数需要执行的语句，语句需要用 <em>{}</em> 包裹起来，看作一个代码块；<code>return</code> 为返回语句，其返回值类型与 <code>returnType</code> 一致，函数会以返回语句作为结束标志。</p>
+<div class="admonition info"><p class="admonition-title">注意
+</p><p>如果遗漏 main() 函数中的 return 语句，程序在运行至最外面的右花括号（｝）时会返回0。因此，可以省略 main() 函数末尾的 return 语句。但是，不要在其他有返回值的函数中漏掉它。</p>
+</div>
+
+<p>在C中有一个特殊的函数——主函数 main()。主函数是一个程序的入口，它由用户定义但是却必需存在，在一个项目中有且只能有一个 main() 函数，其他函数需要在 main() 函数中调用才能执行。当执行C程序时，操作系统会开始逐条执行 main() 函数中的语句直到返回语句结束。</p>
+<p><code>printf()</code> 也是一个函数，存在于 <em>stdio.h</em> 文件中。它的作用是打印输出字符串参数。</p>
+<h3 id="语句和代码块"><a href="#语句和代码块" class="headerlink" title="语句和代码块"></a>语句和代码块</h3><p>在前文中多次提到语句。在函数内部是按顺序排列的一条条的指令和相关的数据，我们可以把这些指令和数据理解为我们向计算机发出的命令。在程序设计语言中，我们把这样的命令称为语句。为了区分一条条的语句，不至于让计算机混淆，我们在每一条语句末尾用 <code>;</code> 结束，并且最好每个语句独占一行。简单的语句就是要求计算机做出的一些简单动作，例如获取用户输入或打印输出等。当我们想要计算机执行复杂的动作时，需要多个语句协同运行，可以把多条语句组合在一起形成 <strong>块语句</strong>。块语句要用花括号 <em>{</em> 和 <em>}</em> 包围起来。</p>
+<p>C语言六种基本语句是：1、表达式语句；2、标签语句；3、循环语句；4、复合语句；5、跳转语句；6、选择语句。C程序中的语句一般都是按照其出现的先后顺序依次执行的，我们把程序中语句的执行顺序称为程序的流程。程序的流程一般有三种结构，分别是顺序结构、选择结构（分支结构）、循环结构。这是C语言的基础。</p>
+<p><img src="https://raw.githubusercontent.com/ezrameek/PicBed/master/202402042335826.png" alt="图 1.3.1：三种程序结构的流程示意图"></p>
+<div class="admonition note"><p class="admonition-title">对三种程序结构的说明
+</p><ul>
+<li>顺序结构是语句按照其在程序中出现的先后顺序依次执行。</li>
+<li>选择结构有时也被称为“分支结构”或“条件分支”，是根据若干个判断条件的成立与否，在程序执行过程中产生不同的执行分支。</li>
+<li>循环结构是程序在运行过程中如果某个判断条件成立，把一些语句反复执行若干次。</li>
+</ul>
+</div>
+
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/2024/02/01/index/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    Welcome Ezra&#39;s Wiki Site
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2024/01/04/%E7%A8%8B%E5%BA%8F%E8%AF%AD%E8%A8%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">计算机语言基础知识</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
+</section>
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            Ezra Penn &copy; 2024 
+            <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
+            <br> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme - <a target="_blank" rel="noopener" href="https://github.com/zthxxx/hexo-theme-Wikitten">wikitten</a>
+            
+                <br>
+                <span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i> <span id="busuanzi_value_site_pv"></span></span>
+                &nbsp;|&nbsp;
+                <span id="busuanzi_container_site_pv"><i class="fa fa-user"></i> <span id="busuanzi_value_site_uv"></span></span>
+            
+        </div>
+    </div>
+</footer>
+
+        
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true,
+            TeX: {
+                equationNumbers: {
+                  autoNumber: 'AMS'
+                }
+            }
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
